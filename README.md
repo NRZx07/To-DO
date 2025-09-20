@@ -26,7 +26,7 @@ Demo
 
 
 
-Add a screenshot here if you like.
+
 
 Technologies Used
 
