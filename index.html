@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>To-Do App</title>
+</head>
+<body class="bg-gray-900">
+
+  <!-- Background -->
+  <div class="absolute inset-0 -z-10 h-full w-full [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 m-4 flex items-center space-x-2 bg-black/50 backdrop-blur-md rounded px-3 py-1">
+    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="Logo" class="w-8 h-8">
+    <span class="text-xl font-bold text-fuchsia-600">iTask</span>
+  </nav>
+
+  <!-- Centered To-Do Card -->
+  <div class="flex items-center justify-center h-screen">
+    <div class="bg-black/70 backdrop-blur-md rounded-2xl shadow-lg p-6 w-full max-w-md">
+      <h2 class="text-2xl font-bold text-fuchsia-600 mb-4">To-DO List</h2>
+      
+      <!-- Input and Add Button -->
+      <div class="flex mb-4">
+        <input id="taskInput" type="text" placeholder="Add a new task..." class="flex-1 px-3 py-2 rounded-l-lg focus:outline-none text-black">
+        <button id="addBtn" class="bg-fuchsia-600 text-white px-4 py-2 rounded-r-lg hover:bg-fuchsia-700 transition">Add</button>
+      </div>
+
+      <!-- Task List -->
+      <ul id="taskList" class="text-white space-y-2">
+        <!-- Tasks will appear here -->
+      </ul>
+    </div>
+  </div>
+
+  <!-- External JS -->
+  <script src="app.js"></script>
+
+</body>
+</html>
