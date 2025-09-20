@@ -22,6 +22,7 @@ Responsive UI: Works on both desktop and mobile screens.
 Modern Styling: Tailwind CSS for a clean and interactive design.
 
 Demo
+![Screenshot of iTask App](screenshot.png)
 
 
 Add a screenshot here if you like.
